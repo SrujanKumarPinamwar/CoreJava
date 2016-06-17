@@ -5,6 +5,7 @@ import java.util.Random;
 public class GenerateRandomNumber {
 
 	public static void main(String[] args) {
+		System.out.println("Generate Random number");
 		int count;
 		Random rnum = new Random();
 		

@@ -43,6 +43,8 @@ public class DuplicateCharInString {
 	
 	
 	public static void main(String[] args) {
+	
+		System.out.println("Duplicate Character in String");
 		DuplicateCharInString obj = new DuplicateCharInString();
 		
 		System.out.println("String: BeginnersBook.com");
