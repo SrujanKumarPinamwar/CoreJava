@@ -13,7 +13,7 @@ public class Palindrome {
 //		System.out.printf("Original String: %s, Reversed String: %s",word,reverse);
 		
 		
-		/***Reverse the string using StringBuffer.***/
+		/***Reverse the string using StringBuilder.***/
 //		String word = "hello world";
 //		String reverse = new StringBuilder(word).reverse().toString();
 //		System.out.printf("Original String: %s, Reversed String: %s",word,reverse);
@@ -29,9 +29,15 @@ public class Palindrome {
 //		System.out.printf("Original String: %s, Reversed String: %s",word,reverse);
 		
 		/***Reverse the string using Recursive method.***/
-		String word = "srujan kumar pinamwar";
+		String word = "srujan";
 		String reverse = reverseUsingRecursive(word);
-		System.out.printf("Original String: %s, Reversed String: %s",word,reverse);
+		System.out.printf("Original String: %s, Reversed String: %s%n",word,reverse);
+		
+		if (word.equals(reverse)){
+			System.out.println("Given String is palindrome. ");
+		}else{
+			System.out.println("Given String is not plindrome. ");
+		}
 		
 		
 	}
